@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.comfortaa-font {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #EDE8E3;
+    color: #255f8d;
+    display: grid;
+    font-family: sans-serif;
+    grid-template-rows: 1fr auto;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    aspect-ratio: 1 / 1;
+    width: max(15vw, 10rem);
+}
+
+main h1 {
+    font-size: max(3.25vw, 2.25rem);
+}
+
+footer {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    font-size: min(3vw, 1rem);
+    font-weight: 500;
+    padding: 0.5rem;
+}
